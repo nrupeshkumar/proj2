@@ -1110,7 +1110,9 @@ overflow: hidden;
 #about{
     min-height: 1300px;
 }
-    
+    #resume .re-btn:hover{
+    background-color: #ef3053;
+}
    }
    @media only screen and (min-width:840px) and (max-width:1199px) {
     #contact{
@@ -1119,14 +1121,10 @@ display: flex;
 align-items: center;
 justify-content: center;
     }
-       #resume{
-           min-height: 500px;
-       }
-       .resumepage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} 
+       #resume .re-btn:hover{
+    background-color: blue;
+}
+     
 
     .btnbox1 button:hover{
         background-color: blueviolet;
