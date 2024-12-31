@@ -1121,7 +1121,6 @@ justify-content: center;
     }
        #resume{
            max-height: 800px;
-           max-height: 100%;
        }
     .btnbox1 button:hover{
         background-color: blueviolet;
