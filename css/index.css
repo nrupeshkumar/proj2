@@ -1118,7 +1118,12 @@ overflow: hidden;
     flex-direction: column;
     justify-content: center;
 }
-
+#resume{
+/*           min-height: 700px; */
+           max-height: 500px;
+           display: flex;
+justify-content: center;
+       
    }
    @media only screen and (min-width:840px) and (max-width:1199px) {
     #contact{
@@ -1126,24 +1131,9 @@ max-height: 800px;
 display: flex;
 align-items: center;
 justify-content: center;
-    }
-       #resume{
-          min-height: 700px;
-           max-height: 100%;
-           display: flex;
-align-items: center;
-justify-content: center;
-           
+    }    
 
-       }
-       .resumepage{
-           display: flex;
-            flex-direction: column;
-align-items: center;
-justify-content: center;
-           
-
-       }
+       
        #resume .re-btn:hover{
     background-color: blue;
 }
