@@ -1094,3 +1094,35 @@ overflow: hidden;
     min-height: 1300px;
 }
    }
+  @media only screen and (min-width:840px) and (max-width:1199px) {
+    #contact{
+max-height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+    .btnbox1 button:hover{
+        background-color: blueviolet;
+        color: aliceblue;
+   }
+   }
+   @media only screen and (min-width:425px) and (max-width:709px) {
+    #resume{
+ min-height: 1400px; 
+ 
+ 
+    }
+.resumepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#resume .re-btn:hover{
+    background-color: #ef3053;
+}
+}
+@media only screen and (max-width:485px) {
+#about{
+    min-height: 2000px;
+}
+}
