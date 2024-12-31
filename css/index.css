@@ -1096,11 +1096,16 @@ overflow: hidden;
    }
   @media only screen and (min-width:840px) and (max-width:1199px) {
     #contact{
-min-height: 800px;
+min-height: 1200px;
+max-height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
     }
+      .contactpage{
+          display: flex;
+ flex-direction: column;
+      }
     .btnbox1 button:hover{
         background-color: blueviolet;
         color: aliceblue;
