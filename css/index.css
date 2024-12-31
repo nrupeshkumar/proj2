@@ -1110,14 +1110,19 @@ overflow: hidden;
 #about{
     min-height: 1300px;
 }
+       
    }
    @media only screen and (min-width:840px) and (max-width:1199px) {
     #contact{
-max-height: 500px;
+max-height: 800px;
 display: flex;
 align-items: center;
 justify-content: center;
     }
+       #resume{
+           max-height: 800px;
+           max-height: 100%;
+       }
     .btnbox1 button:hover{
         background-color: blueviolet;
         color: aliceblue;
@@ -1146,5 +1151,4 @@ justify-content: center;
 @media only screen and (min-width:600px) and (max-width:1024px) {
 .nav-list li{
     
-}
 }
