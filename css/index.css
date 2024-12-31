@@ -254,6 +254,7 @@ border-radius: 8px;
 }
 #about{
     display: flex; 
+    min-height:1200px;
     background: linear-gradient(to left, rgb(232, 192, 192) 10%,rgba(254, 254, 254, 0.847) 40%); 
     }
     .about-me{
