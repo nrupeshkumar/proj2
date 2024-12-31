@@ -1121,7 +1121,7 @@ overflow: hidden;
 #resume{
 /*           min-height: 700px; */
            min-height: 500px;
-
+max-height: 800px;
    }
    @media only screen and (min-width:840px) and (max-width:1199px) {
     #contact{
