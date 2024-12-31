@@ -1113,6 +1113,12 @@ overflow: hidden;
     #resume .re-btn:hover{
     background-color: #ef3053;
 }
+       .resumepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
    }
    @media only screen and (min-width:840px) and (max-width:1199px) {
     #contact{
