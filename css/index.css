@@ -1105,11 +1105,15 @@ justify-content: center;
         background-color: blueviolet;
         color: aliceblue;
    }
+      #resume{
+          min-height: 900px;
+      }
       
           .resumepage{
     display: flex;
     flex-direction: column;
     justify-content: center;
+              
       }
           
    }
