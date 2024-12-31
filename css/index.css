@@ -1110,10 +1110,7 @@ overflow: hidden;
 #about{
     min-height: 1300px;
 }
-       
-   }
-   @media only screen and (min-width:840px) and (max-width:1199px) {
-    #contact{
+     #contact{
 max-height: 800px;
 display: flex;
 align-items: center;
@@ -1126,7 +1123,23 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+}   
+   }
+   @media only screen and (min-width:840px) and (max-width:1199px) {
+/*     #contact{
+max-height: 800px;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+       #resume{
+           max-height: 500px;
+       }
+       .resumepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 
     .btnbox1 button:hover{
         background-color: blueviolet;
