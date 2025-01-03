@@ -1293,18 +1293,18 @@ max-height: 1500px;
     
 }
 #contact{
-    min-height: 800px;
+    min-height: 1100px;
 }
 .contact-part1{
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: ;
     gap: 40px;
    }
-   .con-inner1{
+/*    .con-inner1{
   min-width: 30%;
    }
    .con-inner2{
 min-width: 30%;
-   }
+   } */
 }
